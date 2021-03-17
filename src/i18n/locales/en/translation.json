@@ -1,0 +1,29 @@
+{
+    "header": {
+        "app-name": "Travel App"
+    },
+    "footer": {
+        "creator": "Denis Afanasev"
+    },
+    "countries": {
+        "russia": "Russia",
+        "usa": "USA",
+        "mexico": "Mexico",
+        "italy": "Italy",
+        "japan": "Japan",
+        "germany": "Germany",
+        "argentina": "Argentina",
+        "switzerland": "Switzerland"
+    },
+    "capitals": {
+        "moscow": "Moscow",
+        "washington": "Washington",
+        "mexico-city": "Mexico City",
+        "rome": "Rome",
+        "tokyo": "Tokyo",
+        "berlin": "Berlin",
+        "buenos-aires": "Buenos Aires",
+        "bern": "Bern"
+    }
+
+}

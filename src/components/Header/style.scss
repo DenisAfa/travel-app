@@ -1,0 +1,31 @@
+@import '../../styles/mixin.scss';
+
+$color-header-background: #00968870;
+$color-text: black;
+
+.header {
+  background-color: $color-header-background;
+  width: 100%;
+}
+
+.header__wrapper {
+  @include flex(space-between, center);
+  width: 85%;
+  margin: 0 auto;
+}
+
+.header__info {
+  @include flex(center, center);
+  text-decoration: none;
+  color: $color-text;
+}
+
+.header__logo {
+  width: 3rem;
+  padding: 0.5rem 0rem;
+}
+
+.header__app-name {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}

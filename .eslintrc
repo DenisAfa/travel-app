@@ -2,8 +2,9 @@
     "extends": ["prettier"],
     "plugins": ["prettier"],
     "rules": {
-      "prettier/prettier": ["error",
+      "prettier/prettier": ["off", 
         {
+          "singleQuote": true,
           "endOfLine": "auto",
         },]
     },

@@ -1,0 +1,32 @@
+@import '../../../styles/mixin.scss';
+
+$color-text: rgb(255, 255, 255);
+
+.card {
+  @include flex(center, center);
+  position: relative;
+  flex-direction: column;
+  flex: 1 1 25%;
+}
+
+.card__photo {
+  width: 99%;
+  height: 99%;
+}
+
+.card__name {
+  position: absolute;
+  top: 0.5rem;
+  color: $color-text;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.card__capital {
+  position: absolute;
+  color: $color-text;
+  top: 2rem;
+  font-family: Roboto, sans-serif;
+  width: 100%;
+  border-bottom: solid 1px;
+}

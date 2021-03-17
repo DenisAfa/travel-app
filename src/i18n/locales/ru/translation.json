@@ -1,0 +1,29 @@
+{
+    "header": {
+        "app-name": "Приложение для путешествий"
+    },
+    "footer": {
+        "creator": "Денис Афанасьев"
+    },
+    "countries": {
+        "russia": "Россия",
+        "usa": "Соединенные штаты Америки",
+        "mexico": "Мексика",
+        "italy": "Италия",
+        "japan": "Япония",
+        "germany": "Германия",
+        "argentina": "Аргентина",
+        "switzerland": "Швейцария"
+    },
+    "capitals": {
+        "moscow": "Москва",
+        "washington": "Вашингтон",
+        "mexico-city": "Мехико",
+        "rome": "Рим",
+        "tokyo": "Токио",
+        "berlin": "Берлин",
+        "buenos-aires": "Буэнос-Айрес",
+        "bern": "Берн"
+    }
+
+}

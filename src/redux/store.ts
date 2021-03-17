@@ -1,7 +1,17 @@
-import { combineReducers, createStore } from "redux";
+import { AppState } from './../../../redux/redux/reducers/index';
+import { combineReducers, createStore } from 'redux';
+import countriesReducer, { CountriesState } from './countriesReducer';
+import { composeWithDevTools } from 'redux-devtools-extension';
 
-const reducers = combineReducers({});
+export interface State {
+  app: AppState;
+  countries: CountriesState;
+}
 
-const store = createStore(reducers);
+const reducers = combineReducers({
+  countries: countriesReducer,
+});
+
+const store = createStore(reducers, composeWithDevTools());
 
 export default store;

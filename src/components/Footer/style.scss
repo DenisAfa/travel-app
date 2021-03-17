@@ -1,0 +1,37 @@
+@import '../../styles/mixin.scss';
+
+$color-text: black;
+$color-footer-background: #00968870;
+
+.footer {
+  width: 100%;
+  background-color: $color-footer-background;
+}
+
+.footer__wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.info {
+  @include flex(space-between, center);
+}
+
+.info__creator {
+  text-decoration: none;
+  color: $color-text;
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+}
+
+.info__logo {
+  width: 3.5rem;
+  height: 2rem;
+  padding: 0.5rem;
+}
+
+.info__year {
+  color: $color-text;
+  font-size: 1em;
+  font-family: Roboto, sans-serif;
+}
